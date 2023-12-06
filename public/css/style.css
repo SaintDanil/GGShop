@@ -1,0 +1,126 @@
+#body {
+    background: linear-gradient(93deg, #172334 1.98%, #050505 100.26%);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    word-wrap: break-word;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+.menu {
+    padding-top: 5px;
+    padding-left: 20px;
+    width: 100%;
+    float: left;
+    position: fixed;
+    align-items: center;
+}
+
+.button {
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    text-align: left;
+    font-family: Arial;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    display: block;
+}
+
+.item {
+    padding: 10px;
+    height: 50px;
+    min-width: 42px;
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 1.2;
+    display: flex;
+    text-align: left;
+    text-decoration: none;
+    color: #FFF;
+}
+
+#main-nav {
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+.profile {
+    padding-right: 20px;
+    float: right;
+    height: 50px;
+    display: flex;
+}
+
+.nickname {
+    font-size: 15px;
+    text-align: center;
+    padding: 5px;
+}
+
+.avatar {
+    overflow: hidden;
+    border-radius: 50%;
+    max-width: none;
+}
+
+.general {
+    margin-top: 40px !important;
+}
+
+.HeaderItem {
+    font-family: Arial;
+    padding-left: 15px;
+    height: 50px;
+    color: #CFBC59;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.table {
+    color: #e2e8f0;
+}
+
+.gamecard {
+    align-items: center;
+    max-width: 90%;
+    background: #232830;
+    border-radius: 10px;
+}
+
+.listgame {
+    display: grid;
+    align-items: center;
+    justify-content: space-around;
+    width: 85%;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+img {
+    border-radius: 10px;
+    vertical-align: middle;
+    max-width: 90%;
+}
+
+.discription {
+    color: #CFBC59;
+}
+
+.price {
+    color: #e2e8f0;
+    font-size: 16px;
+}
+
+.name {
+    color: #e2e8f0;
+    font-size: 18px;
+}
